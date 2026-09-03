@@ -1,0 +1,43 @@
+HOW TO RE-SKIN THIS DEMO FOR THE NEXT CAFE
+==========================================
+
+You only touch TWO things.
+
+1) config.js
+   Change:
+   - name, tagline, parent, neighbourhood, hook
+   - story paragraphs
+   - address, phone, instagram, maps, booking
+   - hours (openHour / closeHour as 24h numbers)
+   - theme colors (ink, deep, forest, sage, tile, cream, gold)
+   - highlights and notes
+   - photo paths if you rename files
+
+2) images/
+   Replace these 6 files with the new cafe's photos
+   (keep the same filenames and you don't even edit config):
+
+   hero-bar.jpg        → their counter / sign / best interior
+   garden.jpg          → seating / room
+   oven.jpg            → a second space shot
+   entrance-night.jpg  → facade / door / night
+   table-spread.jpg    → food on a table
+   pizza.jpg           → hero food plate
+
+COLOR SHORTCUTS
+---------------
+Garden / foliage cafe  → keep the current greens
+Dark espresso bar      → ink #0e0c0a, deep #1a1410, tile #c4a574
+Pink pastry house      → deep #2a1820, tile #e7b7b0, cream #f7eee8
+Coastal white          → deep #1c2424, tile #9eb7b2, cream #f6f3ea
+
+SENDING IT
+----------
+Zip the whole kana-demo folder and send it.
+They can open index.html in a browser.
+Or drop the folder on Netlify / Cloudflare Pages for a live URL.
+
+Photos used here are public listing photos of Kana
+(Zomato / District / Swiggy / Urbanaut). If the owner
+gives you official shots, drop them in /images and it
+will look even more like their house.
